@@ -1,0 +1,12 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %} Прайс-лист {% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Прайс-лист</h1>
+        <p>Здесь можно разместить прайс лист либо ссылку на него. С возможностью редактировать строки либо сам файл администратором</p>
+        <p1><embed src= "{% static 'main/pdf/price.pdf' %}" width="800px" height="1200px"  align="left "/></p1>
+    </div>
+{% endblock %}

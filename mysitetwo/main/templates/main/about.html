@@ -1,0 +1,18 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %} Про нас {% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Про нас</h1>
+        <p>Первая пробная версия сайта. Здесь можно указать информацию об организации.</p>
+        <i>
+            <img src="{% static 'main/img/factorios1.png'  %}" width= '360' height= '180'  >
+            <img src="{% static 'main/img/factorios2.png'  %}" width = '360' height= '180'  >
+            <img src="{% static 'main/img/factorios3.png'  %}" width = '360' height= '180'  >
+
+
+        </i>
+    </div>
+{% endblock %}
