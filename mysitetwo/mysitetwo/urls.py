@@ -24,4 +24,7 @@ urlpatterns = [
     path('', include('main.urls')),
     path('news/', include('news.urls')),
     path('pricelist/', include('pricelist.urls')),
+    #path('userlog/', include('userlog.urls')),
+    path('signup/', include('reg_auth.urls')),
+    path('accounts/', include('django.contrib.auth.urls'))
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

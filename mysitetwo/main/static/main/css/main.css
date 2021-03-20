@@ -51,7 +51,7 @@ main .features {
     width: 75%;
 
 }
-main .features h1 {font-size:50px;}
+main .features h1 {font-size:150px;}
 main .features p {max-width: 400px; margin: 20px auto}
 main .features p1 {}
 
@@ -66,8 +66,14 @@ main .features p1 {}
     text-align: left;
 }
 
+
+
 form {
     margin-left: 32%;
     width: 500px;
     margin-top: 50px;
+}
+main .top {
+    float: center;
+    color: red;
 }
